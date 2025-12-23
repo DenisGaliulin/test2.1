@@ -1,8 +1,8 @@
 public class BmiService {
 
-    public double calculate(double meters, double kg) {
-        double bodyIndex;
-        bodyIndex =  (kg / (meters * meters));
+    public int calculate(double meters, double kg) {
+
+        double bodyIndex =  kg / (meters * meters);
 
         return  (int) bodyIndex;
     }
